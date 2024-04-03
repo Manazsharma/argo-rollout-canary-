@@ -3,7 +3,7 @@ kind: Rollout
 metadata:
   name: rollout-canary
 spec:
-  replicas: 5
+  replicas: 10
   revisionHistoryLimit: 2
   selector:
     matchLabels:
@@ -26,9 +26,4 @@ spec:
       # The following pause step will pause the rollout indefinitely until manually resumed.
       # Rollouts can be manually resumed by running `kubectl argo rollouts promote ROLLOUT`
       - pause: {}
-      - setWeight: 40
-      - pause: {duration: 40s}
-      - setWeight: 60
-      - pause: {duration: 20s}
-      - setWeight: 80
-      - pause: {duration: 20s}
+      

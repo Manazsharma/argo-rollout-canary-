@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: minikube
-        image: gcr.io/k8s-minikube/kicbase:v0.0.40
+        image: gcr.io/k8s-minikube/kicbase:v0.0.42
         imagePullPolicy: Always
         ports:
         - containerPort: 8080

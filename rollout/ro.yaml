@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: minikube
-        image: nginx
+        image: nginx:1.24.0-alpine-slim
         imagePullPolicy: Always
         ports:
         - containerPort: 8080

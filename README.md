@@ -290,11 +290,11 @@ To cleanly remove all resources created during this project from the Kubernetes 
     watch argocd app get rollout-canary
 ```
 3. Delete the ArgoCD namespace:
-   ```bash
+```bash
     watch argocd app get rollout-canary
 ```
 4. Delete rollout resources:
-   ```bash
+```bash
     kubectl delete rollout rollout-canary
 ```
 5. Delete deployment and services

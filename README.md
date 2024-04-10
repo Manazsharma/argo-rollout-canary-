@@ -1,5 +1,5 @@
 
-# ArgoCD & Argo Rollouts assignment 
+# ArgoCD & Argo Rollouts Demo
 
 This readme provides a comprehensive guide for setting up a GitOps pipeline using Argo CD for continuous deployment and implementing  a canary release with Argo Rollouts within a Kubernetes environment.
 
